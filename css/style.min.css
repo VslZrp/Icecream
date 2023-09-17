@@ -87,7 +87,7 @@ body {
   text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  
+  overflow: hidden;
 }
 button,
 input,
@@ -240,7 +240,7 @@ sup {
 .page > * {
   height: 100vh;
   width: 100vw;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 .page * {
   color: #fff;
@@ -517,7 +517,6 @@ h2 {
 .what-if {
   background: linear-gradient(-90deg, #f0aaaa 21%, #f7b8b8 99%);
   background: var(--bg-dark-red);
-  overflow-y: scroll;
 }
 .what-if * {
   pointer-events: none;
